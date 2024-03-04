@@ -1,0 +1,4 @@
+# Environment variablse set for all `cargo ...` commands.
+[env]
+
+RUST_LOG = "dingbat=debug"

@@ -1,0 +1,16 @@
+[package]
+name = "dingbat"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# -- Argument parsing
+clap = { version = "4.5.1", features = ["derive"] }
+clap_derive = "4.5.0"
+
+# -- Audio
+rodio = "0.17.3"
+
+# -- Tracing
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
